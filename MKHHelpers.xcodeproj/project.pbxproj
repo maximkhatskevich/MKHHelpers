@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		516B46D0F4DB333B042AEDCB /* MKHHelpers. */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MKHHelpers.; path = MKHHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		516B46D0F4DB333B042AEDCB /* MKHHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKHHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		740829FD147F6471A3F9E07B /* MKHHelpersTst.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKHHelpersTst.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		942068DA1D6A9C7E00D14CBB /* Bool+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+MKHHelpers.swift"; sourceTree = "<group>"; };
 		AA6554B6CC4D46BE9E72724C /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				740829FD147F6471A3F9E07B /* MKHHelpersTst.xctest */,
-				516B46D0F4DB333B042AEDCB /* MKHHelpers. */,
+				516B46D0F4DB333B042AEDCB /* MKHHelpers.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 			);
 			name = MKHHelpers;
 			productName = MKHHelpers;
-			productReference = 516B46D0F4DB333B042AEDCB /* MKHHelpers. */;
+			productReference = 516B46D0F4DB333B042AEDCB /* MKHHelpers.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -155,6 +155,14 @@
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Maxim Khatskevich";
+				TargetAttributes = {
+					0056E9C6C8C26B639D28E97F = {
+						LastSwiftMigration = 0800;
+					};
+					BC3DA1F5A08AA8506A2AE189 = {
+						LastSwiftMigration = 0800;
+					};
+				};
 			};
 			buildConfigurationList = 902846D316F13F597907E79F /* Build configuration list for PBXProject "MKHHelpers" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -267,6 +275,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -329,6 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = khatskevich.maxim.MKHHelpersTst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -346,6 +356,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -370,6 +381,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

@@ -27,6 +27,6 @@ extension String
         
         let emailTest = NSPredicate(format: "SELF MATCHES[c] %@", emailRegex)
         
-        return emailTest.evaluateWithObject(self)
+        return emailTest.evaluate(with: self)
     }
 }
