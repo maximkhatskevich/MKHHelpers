@@ -11,6 +11,15 @@
 		1612B20DF898D36122B316AF /* Bool+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7828E3C19AE105B74EBB66 /* Bool+MKHHelpers.swift */; };
 		40E72CABD3115B6D75D888E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C770F32BA2578906A4F8A3 /* UIKit.framework */; };
 		51D242A3AF5E14779DFC2AF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C770F32BA2578906A4F8A3 /* UIKit.framework */; };
+		948A48971DBFB41100B28966 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A48961DBFB41100B28966 /* Misc.swift */; };
+		948A48991DBFB42C00B28966 /* MiscUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A48981DBFB42C00B28966 /* MiscUI.swift */; };
+		948A489B1DBFB50D00B28966 /* UIImage+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A489A1DBFB50D00B28966 /* UIImage+MKHHelpers.swift */; };
+		948A489D1DBFB59A00B28966 /* UIViewController+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A489C1DBFB59A00B28966 /* UIViewController+MKHHelpers.swift */; };
+		948A489F1DBFB62E00B28966 /* UIScrollView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A489E1DBFB62E00B28966 /* UIScrollView+MKHHelpers.swift */; };
+		948A48A11DBFB6D700B28966 /* UIView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A48A01DBFB6D700B28966 /* UIView+MKHHelpers.swift */; };
+		948A48A31DBFB7BD00B28966 /* UIImageView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A48A21DBFB7BD00B28966 /* UIImageView+MKHHelpers.swift */; };
+		948A48A51DBFB81C00B28966 /* UIButton+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A48A41DBFB81C00B28966 /* UIButton+MKHHelpers.swift */; };
+		948A48A71DBFB8D300B28966 /* UITextField+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A48A61DBFB8D300B28966 /* UITextField+MKHHelpers.swift */; };
 		AD926234035CD30A5708C4B1 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470A0994691185D26F7CE5A /* Main.swift */; };
 		DA23F0C61EA17E4F1E532D52 /* String+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14989A413354F950BC9B6D /* String+MKHHelpers.swift */; };
 		EB349DB9AEDA5871FD7F92D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F1C538EEC783386D81A676 /* Foundation.framework */; };
@@ -23,6 +32,15 @@
 		5C3ECDC884833575C23B6B48 /* MKHHelpers. */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MKHHelpers.; path = MKHHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7828E3C19AE105B74EBB66 /* Bool+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bool+MKHHelpers.swift"; sourceTree = "<group>"; };
 		70C770F32BA2578906A4F8A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		948A48961DBFB41100B28966 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		948A48981DBFB42C00B28966 /* MiscUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscUI.swift; sourceTree = "<group>"; };
+		948A489A1DBFB50D00B28966 /* UIImage+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+MKHHelpers.swift"; sourceTree = "<group>"; };
+		948A489C1DBFB59A00B28966 /* UIViewController+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MKHHelpers.swift"; sourceTree = "<group>"; };
+		948A489E1DBFB62E00B28966 /* UIScrollView+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+MKHHelpers.swift"; sourceTree = "<group>"; };
+		948A48A01DBFB6D700B28966 /* UIView+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+MKHHelpers.swift"; sourceTree = "<group>"; };
+		948A48A21DBFB7BD00B28966 /* UIImageView+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+MKHHelpers.swift"; sourceTree = "<group>"; };
+		948A48A41DBFB81C00B28966 /* UIButton+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+MKHHelpers.swift"; sourceTree = "<group>"; };
+		948A48A61DBFB8D300B28966 /* UITextField+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+MKHHelpers.swift"; sourceTree = "<group>"; };
 		ED14989A413354F950BC9B6D /* String+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+MKHHelpers.swift"; sourceTree = "<group>"; };
 		F470A0994691185D26F7CE5A /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +117,15 @@
 			children = (
 				6C7828E3C19AE105B74EBB66 /* Bool+MKHHelpers.swift */,
 				ED14989A413354F950BC9B6D /* String+MKHHelpers.swift */,
+				948A489A1DBFB50D00B28966 /* UIImage+MKHHelpers.swift */,
+				948A489C1DBFB59A00B28966 /* UIViewController+MKHHelpers.swift */,
+				948A48A01DBFB6D700B28966 /* UIView+MKHHelpers.swift */,
+				948A489E1DBFB62E00B28966 /* UIScrollView+MKHHelpers.swift */,
+				948A48A21DBFB7BD00B28966 /* UIImageView+MKHHelpers.swift */,
+				948A48A41DBFB81C00B28966 /* UIButton+MKHHelpers.swift */,
+				948A48A61DBFB8D300B28966 /* UITextField+MKHHelpers.swift */,
+				948A48961DBFB41100B28966 /* Misc.swift */,
+				948A48981DBFB42C00B28966 /* MiscUI.swift */,
 			);
 			path = Src;
 			sourceTree = "<group>";
@@ -187,7 +214,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948A48A31DBFB7BD00B28966 /* UIImageView+MKHHelpers.swift in Sources */,
+				948A48971DBFB41100B28966 /* Misc.swift in Sources */,
+				948A48A11DBFB6D700B28966 /* UIView+MKHHelpers.swift in Sources */,
+				948A489D1DBFB59A00B28966 /* UIViewController+MKHHelpers.swift in Sources */,
+				948A489B1DBFB50D00B28966 /* UIImage+MKHHelpers.swift in Sources */,
+				948A48991DBFB42C00B28966 /* MiscUI.swift in Sources */,
 				1612B20DF898D36122B316AF /* Bool+MKHHelpers.swift in Sources */,
+				948A489F1DBFB62E00B28966 /* UIScrollView+MKHHelpers.swift in Sources */,
+				948A48A71DBFB8D300B28966 /* UITextField+MKHHelpers.swift in Sources */,
+				948A48A51DBFB81C00B28966 /* UIButton+MKHHelpers.swift in Sources */,
 				DA23F0C61EA17E4F1E532D52 /* String+MKHHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
