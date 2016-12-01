@@ -19,7 +19,7 @@ project.all_configurations.each do |configuration|
 
     configuration.settings["SDKROOT"] = "iphoneos"
     configuration.settings["DEBUG_INFORMATION_FORMAT"] = "dwarf"
-    configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = "iPhone Developer"
+    configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = ""
     configuration.settings["TARGETED_DEVICE_FAMILY"] = "1,2"
     configuration.settings["IPHONEOS_DEPLOYMENT_TARGET"] = iOSdeploymentTarget
     configuration.settings["VERSIONING_SYSTEM"] = "apple-generic"
@@ -77,7 +77,7 @@ target do |target|
         # configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = nil
 
         # Xcode 8 automati c signing support
-        configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = "iPhone Developer"
+        configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = ""
         configuration.settings["DEVELOPMENT_TEAM"] = developmentTeamId
 
         configuration.settings["SWIFT_VERSION"] = currentSwiftVersion # Xcode 8
@@ -107,7 +107,7 @@ target do |target|
             configuration.settings["SWIFT_VERSION"] = currentSwiftVersion # Xcode 8
 
             # Xcode 8 automati c signing support
-            configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = "iPhone Developer"
+            configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = ""
             configuration.settings["DEVELOPMENT_TEAM"] = developmentTeamId
 
         end
