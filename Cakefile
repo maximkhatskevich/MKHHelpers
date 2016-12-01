@@ -1,13 +1,16 @@
 # https://github.com/jcampbell05/xcake
 # http://www.rubydoc.info/github/jcampbell05/xcake/master/file/docs/Cakefile.md
 
+iOSdeploymentTarget = "8.0"
+currentSwiftVersion = "3.0.1"
+companyIdentifier = "khatskevich.maxim"
+developmentTeamId = "UJA88X59XP" # Personal team
 testSuffix = "Tst"
-iOSdeploymentTarget = 8.0
-currentSwiftVersion = 3.0
 
 #===
 
 project.name = "MKHHelpers"
+project.class_prefix = "HLP"
 project.organization = "Maxim Khatskevich"
 
 #===
@@ -62,7 +65,7 @@ target do |target|
 
         #=== Build Settings - Core
 
-        configuration.product_bundle_identifier = "khatskevich.maxim." + target.name
+        configuration.product_bundle_identifier = companyIdentifier + "." + target.name
 
         configuration.settings["INFOPLIST_FILE"] = "Info/" + target.name + ".plist"
 
@@ -75,7 +78,7 @@ target do |target|
 
         # Xcode 8 automati c signing support
         configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = "iPhone Developer"
-        configuration.settings["DEVELOPMENT_TEAM"] = "UJA88X59XP" # Personal team
+        configuration.settings["DEVELOPMENT_TEAM"] = developmentTeamId
 
         configuration.settings["SWIFT_VERSION"] = currentSwiftVersion # Xcode 8
 
@@ -95,7 +98,7 @@ target do |target|
 
         test_target.all_configurations.each do |configuration|
 
-            configuration.product_bundle_identifier = "khatskevich.maxim." + test_target.name
+            configuration.product_bundle_identifier = companyIdentifier + "." + test_target.name
 
             configuration.settings["INFOPLIST_FILE"] = "Info/" + test_target.name + ".plist"
 
@@ -105,7 +108,7 @@ target do |target|
 
             # Xcode 8 automati c signing support
             configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = "iPhone Developer"
-            configuration.settings["DEVELOPMENT_TEAM"] = "UJA88X59XP" # Personal team
+            configuration.settings["DEVELOPMENT_TEAM"] = developmentTeamId
 
         end
 
