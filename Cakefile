@@ -89,35 +89,4 @@ target do |target|
     target.include_files = ["Src/**/*.*"]
     target.include_files << "Src-Extra/**/*.*"
 
-    #=== Tests
-    
-    unit_tests_for target do |test_target|
-        
-        test_target.name = target.name + testSuffix
-        test_target.deployment_target = iOSdeploymentTarget
-
-        test_target.all_configurations.each do |configuration|
-
-            configuration.product_bundle_identifier = companyIdentifier + "." + test_target.name
-
-            configuration.settings["INFOPLIST_FILE"] = "Info/" + test_target.name + ".plist"
-
-            configuration.settings["LD_RUNPATH_SEARCH_PATHS"] = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
-
-            configuration.settings["SWIFT_VERSION"] = currentSwiftVersion # Xcode 8
-
-            # Xcode 8 automati c signing support
-            configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = ""
-            configuration.settings["DEVELOPMENT_TEAM"] = developmentTeamId
-
-        end
-
-        #=== Source Files
-
-        testTargetSrcPath = testSuffix + "/**/*.*"
-
-        test_target.include_files = [testTargetSrcPath]
-
-    end
-
 end
