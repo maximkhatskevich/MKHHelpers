@@ -13,7 +13,12 @@ import Foundation
 public
 extension String
 {
-    public
+    static
+    func isValidEmail(_ value: String) -> Bool
+    {
+        return value.isValidEmail()
+    }
+    
     func isValidEmail() -> Bool
     {
         let emailRegex =
@@ -29,4 +34,6 @@ extension String
         
         return emailTest.evaluate(with: self)
     }
+    
+    
 }

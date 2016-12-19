@@ -1,13 +1,16 @@
 # https://github.com/jcampbell05/xcake
 # http://www.rubydoc.info/github/jcampbell05/xcake/master/file/docs/Cakefile.md
 
+iOSdeploymentTarget = "8.0"
+currentSwiftVersion = "3.0"
+companyIdentifier = "khatskevich.maxim"
+developmentTeamId = "UJA88X59XP" # Personal team
 testSuffix = "Tst"
-iOSdeploymentTarget = 8.0
-currentSwiftVersion = 3.0
 
 #===
 
 project.name = "MKHHelpers"
+project.class_prefix = "HLP"
 project.organization = "Maxim Khatskevich"
 
 #===
@@ -16,7 +19,7 @@ project.all_configurations.each do |configuration|
 
     configuration.settings["SDKROOT"] = "iphoneos"
     configuration.settings["DEBUG_INFORMATION_FORMAT"] = "dwarf"
-    configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = "iPhone Developer"
+    configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = ""
     configuration.settings["TARGETED_DEVICE_FAMILY"] = "1,2"
     configuration.settings["IPHONEOS_DEPLOYMENT_TARGET"] = iOSdeploymentTarget
     configuration.settings["VERSIONING_SYSTEM"] = "apple-generic"
@@ -62,7 +65,7 @@ target do |target|
 
         #=== Build Settings - Core
 
-        configuration.product_bundle_identifier = "khatskevich.maxim." + target.name
+        configuration.product_bundle_identifier = companyIdentifier + "." + target.name
 
         configuration.settings["INFOPLIST_FILE"] = "Info/" + target.name + ".plist"
 
@@ -74,8 +77,8 @@ target do |target|
         # configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = nil
 
         # Xcode 8 automati c signing support
-        configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = "iPhone Developer"
-        configuration.settings["DEVELOPMENT_TEAM"] = "UJA88X59XP" # Personal team
+        configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = ""
+        configuration.settings["DEVELOPMENT_TEAM"] = developmentTeamId
 
         configuration.settings["SWIFT_VERSION"] = currentSwiftVersion # Xcode 8
 
@@ -85,36 +88,5 @@ target do |target|
 
     target.include_files = ["Src/**/*.*"]
     target.include_files << "Src-Extra/**/*.*"
-
-    #=== Tests
-    
-    unit_tests_for target do |test_target|
-        
-        test_target.name = target.name + testSuffix
-        test_target.deployment_target = iOSdeploymentTarget
-
-        test_target.all_configurations.each do |configuration|
-
-            configuration.product_bundle_identifier = "khatskevich.maxim." + test_target.name
-
-            configuration.settings["INFOPLIST_FILE"] = "Info/" + test_target.name + ".plist"
-
-            configuration.settings["LD_RUNPATH_SEARCH_PATHS"] = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
-
-            configuration.settings["SWIFT_VERSION"] = currentSwiftVersion # Xcode 8
-
-            # Xcode 8 automati c signing support
-            configuration.settings["CODE_SIGN_IDENTITY[sdk=iphoneos*]"] = "iPhone Developer"
-            configuration.settings["DEVELOPMENT_TEAM"] = "UJA88X59XP" # Personal team
-
-        end
-
-        #=== Source Files
-
-        testTargetSrcPath = testSuffix + "/**/*.*"
-
-        test_target.include_files = [testTargetSrcPath]
-
-    end
 
 end
