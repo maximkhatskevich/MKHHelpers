@@ -14,7 +14,7 @@ public
 extension String
 {
     static
-    func isValidEmail(_ value: Self) -> Bool
+    func isValidEmail(_ value: String) -> Bool
     {
         return value.isValidEmail()
     }
