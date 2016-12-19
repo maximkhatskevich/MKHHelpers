@@ -6,112 +6,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F842F889756FF7C3139C9B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BE25C38023DC110CEE3E19 /* UIKit.framework */; };
-		66F4F30E7297E820DCB0B97A /* UIViewController+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3315B99BEBAACE9328138AB /* UIViewController+MKHHelpers.swift */; };
-		866DF92C79C73AEE1A7F408A /* Bool+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77FD77650DE671D4B55944 /* Bool+MKHHelpers.swift */; };
-		AC6A5A756745105C4FE76784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4184B739A294D276FE025549 /* Foundation.framework */; };
-		B2FF3C2E601137203B6DAA05 /* String+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E501B5AF957FC99BDDE6A04 /* String+MKHHelpers.swift */; };
-		B7DB9A0D107A2B4CA307EE1B /* UIScrollView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366973B9C881B05011570537 /* UIScrollView+MKHHelpers.swift */; };
-		C4628A02A8454960A6585F50 /* MiscUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132FF97C8D8048835D1726CB /* MiscUI.swift */; };
-		D29B01F48EC83C07116A283D /* UIImage+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DF48282051E5DE08D7E008 /* UIImage+MKHHelpers.swift */; };
-		F37E23541F675AD0E1D772F1 /* UIView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834300995E883C05876CE206 /* UIView+MKHHelpers.swift */; };
+		1EF4F0340F25FB3ADCDFAC34 /* Bool+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B8144AE68A76ACE14EE931 /* Bool+MKHHelpers.swift */; };
+		454BF9EE553CAB9B0F82BEDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA76E44E0CFFBB1B11ACBC9 /* UIKit.framework */; };
+		560BE34117E964DAAED580E2 /* String+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B0E9C8AA09628E00E8B20 /* String+MKHHelpers.swift */; };
+		8E228908F4479937C109C9B2 /* UIViewController+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CC366BD5515060A247FE44 /* UIViewController+MKHHelpers.swift */; };
+		A3DECD10F6D569EF293E6F3A /* UIScrollView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C33DECA30F5918D5B90808 /* UIScrollView+MKHHelpers.swift */; };
+		AC0E87E64CF73768619EEB3F /* UIView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D884B414ED9E47BFCC5F945 /* UIView+MKHHelpers.swift */; };
+		B5A3BC0AB97E61AB4C1BDFCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB4E6C4A1186A4D8C1CF1DA /* Foundation.framework */; };
+		C4E183F7F9B7CE37A2D1204A /* UIImage+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B7B202691A94BF1827BCE /* UIImage+MKHHelpers.swift */; };
+		F9163842E07FEB3EC72933DF /* MiscUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BD39744F7DAB011A0DFCD /* MiscUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		132FF97C8D8048835D1726CB /* MiscUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MiscUI.swift; sourceTree = "<group>"; };
-		366973B9C881B05011570537 /* UIScrollView+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScrollView+MKHHelpers.swift"; sourceTree = "<group>"; };
-		4184B739A294D276FE025549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		710CC274906F95D968055CF4 /* MKHHelpers. */ = {isa = PBXFileReference; includeInIndex = 0; path = MKHHelpers.; sourceTree = BUILT_PRODUCTS_DIR; };
-		834300995E883C05876CE206 /* UIView+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+MKHHelpers.swift"; sourceTree = "<group>"; };
-		8E501B5AF957FC99BDDE6A04 /* String+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+MKHHelpers.swift"; sourceTree = "<group>"; };
-		91BE25C38023DC110CEE3E19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BB77FD77650DE671D4B55944 /* Bool+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bool+MKHHelpers.swift"; sourceTree = "<group>"; };
-		BF91BB06382702C6C3C23FE3 /* MKHHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MKHHelpers.h; sourceTree = "<group>"; };
-		D3315B99BEBAACE9328138AB /* UIViewController+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+MKHHelpers.swift"; sourceTree = "<group>"; };
-		D6DF48282051E5DE08D7E008 /* UIImage+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+MKHHelpers.swift"; sourceTree = "<group>"; };
+		13B8144AE68A76ACE14EE931 /* Bool+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bool+MKHHelpers.swift"; sourceTree = "<group>"; };
+		35C33DECA30F5918D5B90808 /* UIScrollView+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScrollView+MKHHelpers.swift"; sourceTree = "<group>"; };
+		5A7BD39744F7DAB011A0DFCD /* MiscUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MiscUI.swift; sourceTree = "<group>"; };
+		5AB4E6C4A1186A4D8C1CF1DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CCC1EDDC76E356041ECA12E /* MKHHelpers. */ = {isa = PBXFileReference; includeInIndex = 0; path = MKHHelpers.; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D884B414ED9E47BFCC5F945 /* UIView+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+MKHHelpers.swift"; sourceTree = "<group>"; };
+		7EA76E44E0CFFBB1B11ACBC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87543EACBDDDBCEF11BEA575 /* MKHHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MKHHelpers.h; sourceTree = "<group>"; };
+		A7CC366BD5515060A247FE44 /* UIViewController+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+MKHHelpers.swift"; sourceTree = "<group>"; };
+		A93B0E9C8AA09628E00E8B20 /* String+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+MKHHelpers.swift"; sourceTree = "<group>"; };
+		FA2B7B202691A94BF1827BCE /* UIImage+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+MKHHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26B22D3BB2BA172659A8845A /* Frameworks */ = {
+		8289DD0B0643B2E602B3F41C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC6A5A756745105C4FE76784 /* Foundation.framework in Frameworks */,
-				5F842F889756FF7C3139C9B0 /* UIKit.framework in Frameworks */,
+				B5A3BC0AB97E61AB4C1BDFCB /* Foundation.framework in Frameworks */,
+				454BF9EE553CAB9B0F82BEDF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		41F1591D9279A89851EE5A44 /* Products */ = {
+		0AEC7F8743CE43ADE63ACFAC = {
 			isa = PBXGroup;
 			children = (
-				710CC274906F95D968055CF4 /* MKHHelpers. */,
+				295E6227E02C58EF40DBEC2B /* Products */,
+				B9B7A2384E4BF5D2114100D7 /* Src */,
+				AE51320A9A276418A34D5FED /* Src-Extra */,
+				5D478C2214D4CC73567747E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		295E6227E02C58EF40DBEC2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CCC1EDDC76E356041ECA12E /* MKHHelpers. */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7BF575AB8FD1E190BC70D662 /* Src */ = {
+		5D478C2214D4CC73567747E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BB77FD77650DE671D4B55944 /* Bool+MKHHelpers.swift */,
-				132FF97C8D8048835D1726CB /* MiscUI.swift */,
-				8E501B5AF957FC99BDDE6A04 /* String+MKHHelpers.swift */,
-				D6DF48282051E5DE08D7E008 /* UIImage+MKHHelpers.swift */,
-				366973B9C881B05011570537 /* UIScrollView+MKHHelpers.swift */,
-				834300995E883C05876CE206 /* UIView+MKHHelpers.swift */,
-				D3315B99BEBAACE9328138AB /* UIViewController+MKHHelpers.swift */,
-			);
-			name = Src;
-			path = Src;
-			sourceTree = "<group>";
-		};
-		7E438AADDDD2BA07742B4AAD /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4184B739A294D276FE025549 /* Foundation.framework */,
-				91BE25C38023DC110CEE3E19 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		EBCE539749FF114D7B2162F6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7E438AADDDD2BA07742B4AAD /* iOS */,
+				9E86DF12C08E36473FC72C51 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EDE6A6B368C60428516CE9B3 /* Src-Extra */ = {
+		9E86DF12C08E36473FC72C51 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BF91BB06382702C6C3C23FE3 /* MKHHelpers.h */,
+				5AB4E6C4A1186A4D8C1CF1DA /* Foundation.framework */,
+				7EA76E44E0CFFBB1B11ACBC9 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AE51320A9A276418A34D5FED /* Src-Extra */ = {
+			isa = PBXGroup;
+			children = (
+				87543EACBDDDBCEF11BEA575 /* MKHHelpers.h */,
 			);
 			name = "Src-Extra";
 			path = "Src-Extra";
 			sourceTree = "<group>";
 		};
-		F73E85F490F7B1F368FCCFC4 = {
+		B9B7A2384E4BF5D2114100D7 /* Src */ = {
 			isa = PBXGroup;
 			children = (
-				41F1591D9279A89851EE5A44 /* Products */,
-				7BF575AB8FD1E190BC70D662 /* Src */,
-				EDE6A6B368C60428516CE9B3 /* Src-Extra */,
-				EBCE539749FF114D7B2162F6 /* Frameworks */,
+				13B8144AE68A76ACE14EE931 /* Bool+MKHHelpers.swift */,
+				5A7BD39744F7DAB011A0DFCD /* MiscUI.swift */,
+				A93B0E9C8AA09628E00E8B20 /* String+MKHHelpers.swift */,
+				FA2B7B202691A94BF1827BCE /* UIImage+MKHHelpers.swift */,
+				35C33DECA30F5918D5B90808 /* UIScrollView+MKHHelpers.swift */,
+				7D884B414ED9E47BFCC5F945 /* UIView+MKHHelpers.swift */,
+				A7CC366BD5515060A247FE44 /* UIViewController+MKHHelpers.swift */,
 			);
+			name = Src;
+			path = Src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4545BC4CA954608F6E43D395 /* MKHHelpers */ = {
+		C269D145464FD1E09559A396 /* MKHHelpers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F4BB668D6FA670851FAC600 /* Build configuration list for PBXNativeTarget "MKHHelpers" */;
+			buildConfigurationList = C030FA025DFC3B056CB90F6F /* Build configuration list for PBXNativeTarget "MKHHelpers" */;
 			buildPhases = (
-				B112310AA504D838D0578E34 /* Sources */,
-				26B22D3BB2BA172659A8845A /* Frameworks */,
+				358DE0A56AB250AB47BB4B43 /* Sources */,
+				8289DD0B0643B2E602B3F41C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -119,13 +119,13 @@
 			);
 			name = MKHHelpers;
 			productName = MKHHelpers;
-			productReference = 710CC274906F95D968055CF4 /* MKHHelpers. */;
+			productReference = 6CCC1EDDC76E356041ECA12E /* MKHHelpers. */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ACF446CCD1CE53D1B3D1AC66 /* Project object */ = {
+		DC8F52CD758A6A95E81D38B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = HLP;
@@ -133,42 +133,71 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Maxim Khatskevich";
 			};
-			buildConfigurationList = 1EF918F5C8E2C3CAF6692971 /* Build configuration list for PBXProject "MKHHelpers" */;
+			buildConfigurationList = F2A5AD51C149AB8B6723E206 /* Build configuration list for PBXProject "MKHHelpers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F73E85F490F7B1F368FCCFC4;
-			productRefGroup = 41F1591D9279A89851EE5A44 /* Products */;
+			mainGroup = 0AEC7F8743CE43ADE63ACFAC;
+			productRefGroup = 295E6227E02C58EF40DBEC2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4545BC4CA954608F6E43D395 /* MKHHelpers */,
+				C269D145464FD1E09559A396 /* MKHHelpers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B112310AA504D838D0578E34 /* Sources */ = {
+		358DE0A56AB250AB47BB4B43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866DF92C79C73AEE1A7F408A /* Bool+MKHHelpers.swift in Sources */,
-				C4628A02A8454960A6585F50 /* MiscUI.swift in Sources */,
-				B2FF3C2E601137203B6DAA05 /* String+MKHHelpers.swift in Sources */,
-				D29B01F48EC83C07116A283D /* UIImage+MKHHelpers.swift in Sources */,
-				B7DB9A0D107A2B4CA307EE1B /* UIScrollView+MKHHelpers.swift in Sources */,
-				F37E23541F675AD0E1D772F1 /* UIView+MKHHelpers.swift in Sources */,
-				66F4F30E7297E820DCB0B97A /* UIViewController+MKHHelpers.swift in Sources */,
+				1EF4F0340F25FB3ADCDFAC34 /* Bool+MKHHelpers.swift in Sources */,
+				F9163842E07FEB3EC72933DF /* MiscUI.swift in Sources */,
+				560BE34117E964DAAED580E2 /* String+MKHHelpers.swift in Sources */,
+				C4E183F7F9B7CE37A2D1204A /* UIImage+MKHHelpers.swift in Sources */,
+				A3DECD10F6D569EF293E6F3A /* UIScrollView+MKHHelpers.swift in Sources */,
+				AC0E87E64CF73768619EEB3F /* UIView+MKHHelpers.swift in Sources */,
+				8E228908F4479937C109C9B2 /* UIViewController+MKHHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0268ADAFD807844DB7FC38A2 /* Debug */ = {
+		22C71527B388A88B472F9A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UJA88X59XP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = Info/MKHHelpers.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = khatskevich.maxim.MKHHelpers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C15D177FB2FF97F0C334764 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +247,7 @@
 			};
 			name = Debug;
 		};
-		262DEDE555A205496FAC33DB /* Release */ = {
+		9CEA25E1913F324A6945279F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +290,7 @@
 			};
 			name = Release;
 		};
-		53FD2A493378DD62B0E8776D /* Debug */ = {
+		E6DFD18F4778F493EB2A2B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -284,64 +313,35 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D63FF6FF79CFB838985E9FC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UJA88X59XP;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = Info/MKHHelpers.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = khatskevich.maxim.MKHHelpers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EF918F5C8E2C3CAF6692971 /* Build configuration list for PBXProject "MKHHelpers" */ = {
+		C030FA025DFC3B056CB90F6F /* Build configuration list for PBXNativeTarget "MKHHelpers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0268ADAFD807844DB7FC38A2 /* Debug */,
-				262DEDE555A205496FAC33DB /* Release */,
+				E6DFD18F4778F493EB2A2B53 /* Debug */,
+				22C71527B388A88B472F9A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F4BB668D6FA670851FAC600 /* Build configuration list for PBXNativeTarget "MKHHelpers" */ = {
+		F2A5AD51C149AB8B6723E206 /* Build configuration list for PBXProject "MKHHelpers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53FD2A493378DD62B0E8776D /* Debug */,
-				D63FF6FF79CFB838985E9FC0 /* Release */,
+				2C15D177FB2FF97F0C334764 /* Debug */,
+				9CEA25E1913F324A6945279F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ACF446CCD1CE53D1B3D1AC66 /* Project object */;
+	rootObject = DC8F52CD758A6A95E81D38B3 /* Project object */;
 }
