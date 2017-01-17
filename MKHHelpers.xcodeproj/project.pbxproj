@@ -1,7 +1,8 @@
 // !$*UTF8*$!
 {
-	archiveVersion = "";
-	classes = "";
+	archiveVersion = 1;
+	classes = {
+	};
 	objectVersion = 46;
 	objects = {
 
@@ -10,6 +11,7 @@
 		454BF9EE553CAB9B0F82BEDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA76E44E0CFFBB1B11ACBC9 /* UIKit.framework */; };
 		560BE34117E964DAAED580E2 /* String+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B0E9C8AA09628E00E8B20 /* String+MKHHelpers.swift */; };
 		8E228908F4479937C109C9B2 /* UIViewController+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CC366BD5515060A247FE44 /* UIViewController+MKHHelpers.swift */; };
+		946C03231E2E381500FA41B5 /* UIButton+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C03221E2E381500FA41B5 /* UIButton+MKHHelpers.swift */; };
 		A3DECD10F6D569EF293E6F3A /* UIScrollView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C33DECA30F5918D5B90808 /* UIScrollView+MKHHelpers.swift */; };
 		AC0E87E64CF73768619EEB3F /* UIView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D884B414ED9E47BFCC5F945 /* UIView+MKHHelpers.swift */; };
 		B5A3BC0AB97E61AB4C1BDFCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB4E6C4A1186A4D8C1CF1DA /* Foundation.framework */; };
@@ -22,10 +24,11 @@
 		35C33DECA30F5918D5B90808 /* UIScrollView+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScrollView+MKHHelpers.swift"; sourceTree = "<group>"; };
 		5A7BD39744F7DAB011A0DFCD /* MiscUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MiscUI.swift; sourceTree = "<group>"; };
 		5AB4E6C4A1186A4D8C1CF1DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6CCC1EDDC76E356041ECA12E /* MKHHelpers. */ = {isa = PBXFileReference; includeInIndex = 0; path = MKHHelpers.; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCC1EDDC76E356041ECA12E /* MKHHelpers. */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = MKHHelpers.; path = MKHHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D884B414ED9E47BFCC5F945 /* UIView+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+MKHHelpers.swift"; sourceTree = "<group>"; };
 		7EA76E44E0CFFBB1B11ACBC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		87543EACBDDDBCEF11BEA575 /* MKHHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MKHHelpers.h; sourceTree = "<group>"; };
+		946C03221E2E381500FA41B5 /* UIButton+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+MKHHelpers.swift"; sourceTree = "<group>"; };
 		A7CC366BD5515060A247FE44 /* UIViewController+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+MKHHelpers.swift"; sourceTree = "<group>"; };
 		A93B0E9C8AA09628E00E8B20 /* String+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+MKHHelpers.swift"; sourceTree = "<group>"; };
 		FA2B7B202691A94BF1827BCE /* UIImage+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+MKHHelpers.swift"; sourceTree = "<group>"; };
@@ -84,7 +87,6 @@
 			children = (
 				87543EACBDDDBCEF11BEA575 /* MKHHelpers.h */,
 			);
-			name = "Src-Extra";
 			path = "Src-Extra";
 			sourceTree = "<group>";
 		};
@@ -98,8 +100,8 @@
 				35C33DECA30F5918D5B90808 /* UIScrollView+MKHHelpers.swift */,
 				7D884B414ED9E47BFCC5F945 /* UIView+MKHHelpers.swift */,
 				A7CC366BD5515060A247FE44 /* UIViewController+MKHHelpers.swift */,
+				946C03221E2E381500FA41B5 /* UIButton+MKHHelpers.swift */,
 			);
-			name = Src;
 			path = Src;
 			sourceTree = "<group>";
 		};
@@ -132,6 +134,11 @@
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Maxim Khatskevich";
+				TargetAttributes = {
+					C269D145464FD1E09559A396 = {
+						DevelopmentTeam = UJA88X59XP;
+					};
+				};
 			};
 			buildConfigurationList = F2A5AD51C149AB8B6723E206 /* Build configuration list for PBXProject "MKHHelpers" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -159,6 +166,7 @@
 				F9163842E07FEB3EC72933DF /* MiscUI.swift in Sources */,
 				560BE34117E964DAAED580E2 /* String+MKHHelpers.swift in Sources */,
 				C4E183F7F9B7CE37A2D1204A /* UIImage+MKHHelpers.swift in Sources */,
+				946C03231E2E381500FA41B5 /* UIButton+MKHHelpers.swift in Sources */,
 				A3DECD10F6D569EF293E6F3A /* UIScrollView+MKHHelpers.swift in Sources */,
 				AC0E87E64CF73768619EEB3F /* UIView+MKHHelpers.swift in Sources */,
 				8E228908F4479937C109C9B2 /* UIViewController+MKHHelpers.swift in Sources */,
