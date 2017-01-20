@@ -25,7 +25,13 @@ extension UIView
             isHidden = !newValue
         }
     }
-    
+}
+
+//===
+
+public
+extension UIView
+{
     @discardableResult
     func add(on superview: UIView, _ translatesAutoresizing: Bool = false) -> UIView
     {
@@ -39,7 +45,13 @@ extension UIView
         
         return self
     }
-    
+}
+
+//===
+
+public
+extension UIView
+{
     @available(iOS 9.0, *)
     @discardableResult
     func add(on stackView: UIStackView) -> UIView
@@ -51,6 +63,23 @@ extension UIView
         return self
     }
     
+    @available(iOS 9.0, *)
+    @discardableResult
+    func remove(from stackView: UIStackView) -> UIView
+    {
+        stackView.removeArrangedSubview(self)
+        
+        //===
+        
+        return self
+    }
+}
+
+//===
+
+public
+extension UIView
+{
     func removeAllConstraints()
     {
         removeConstraints(constraints)
