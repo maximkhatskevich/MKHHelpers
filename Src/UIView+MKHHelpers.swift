@@ -25,6 +25,16 @@ extension UIView
             isHidden = !newValue
         }
     }
+    
+    @discardableResult
+    func add(on superview: UIView) -> UIView
+    {
+        superview.addSubview(self)
+        
+        //===
+        
+        return self
+    }
 }
 
 //===
