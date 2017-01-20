@@ -40,6 +40,17 @@ extension UIView
         return self
     }
     
+    @available(iOS 9.0, *)
+    @discardableResult
+    func add(on stackView: UIStackView) -> UIView
+    {
+        stackView.addArrangedSubview(self)
+        
+        //===
+        
+        return self
+    }
+    
     func removeAllConstraints()
     {
         removeConstraints(constraints)
