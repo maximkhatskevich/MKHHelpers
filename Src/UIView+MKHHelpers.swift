@@ -13,20 +13,25 @@ import UIKit
 public
 extension UIView
 {
-    private
-    func collectAllSubviews(into list: inout [UIView])
+    var isVisible: Bool
     {
-        for sv in subviews
+        get
         {
-            list.append(sv)
-            
-            //===
-            
-            sv.collectAllSubviews(into: &list)
+            return !isHidden
+        }
+        
+        set(newValue)
+        {
+            isHidden = !newValue
         }
     }
-    
-    public
+}
+
+//===
+
+public
+extension UIView
+{
     func allSubviews() -> [UIView]
     {
         var result: [UIView] = []
@@ -38,5 +43,20 @@ extension UIView
         //===
         
         return result
+    }
+    
+    //===
+    
+    private
+    func collectAllSubviews(into list: inout [UIView])
+    {
+        for sv in subviews
+        {
+            list.append(sv)
+            
+            //===
+            
+            sv.collectAllSubviews(into: &list)
+        }
     }
 }
