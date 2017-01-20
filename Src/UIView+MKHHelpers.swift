@@ -27,13 +27,22 @@ extension UIView
     }
     
     @discardableResult
-    func add(on superview: UIView) -> UIView
+    func add(on superview: UIView, _ translatesAutoresizing: Bool = false) -> UIView
     {
         superview.addSubview(self)
         
         //===
         
+        translatesAutoresizingMaskIntoConstraints = translatesAutoresizing
+        
+        //===
+        
         return self
+    }
+    
+    func removeAllConstraints()
+    {
+        removeConstraints(constraints)
     }
 }
 
