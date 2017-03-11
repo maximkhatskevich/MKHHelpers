@@ -33,7 +33,7 @@ public
 extension UIView
 {
     @discardableResult
-    func add(on superview: UIView, _ translatesAutoresizing: Bool = false) -> UIView
+    func add(on superview: UIView, _ translatesAutoresizing: Bool = false) -> Self
     {
         superview.addSubview(self)
         
@@ -54,7 +54,7 @@ extension UIView
 {
     @available(iOS 9.0, *)
     @discardableResult
-    func add(on stackView: UIStackView) -> UIView
+    func add(on stackView: UIStackView) -> Self
     {
         stackView.addArrangedSubview(self)
         
@@ -65,7 +65,7 @@ extension UIView
     
     @available(iOS 9.0, *)
     @discardableResult
-    func remove(from stackView: UIStackView) -> UIView
+    func remove(from stackView: UIStackView) -> Self
     {
         stackView.removeArrangedSubview(self)
         

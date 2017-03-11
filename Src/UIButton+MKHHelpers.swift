@@ -13,6 +13,7 @@ import UIKit
 public
 extension UIButton
 {
+    @discardableResult
     func image(_ i: UIImage?, for state: UIControlState = .normal) -> Self
     {
         setImage(i, for: state)

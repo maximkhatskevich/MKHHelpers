@@ -13,6 +13,8 @@
 		8E228908F4479937C109C9B2 /* UIViewController+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CC366BD5515060A247FE44 /* UIViewController+MKHHelpers.swift */; };
 		946C03231E2E381500FA41B5 /* UIButton+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C03221E2E381500FA41B5 /* UIButton+MKHHelpers.swift */; };
 		946C03271E2E40CC00FA41B5 /* Array+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946C03261E2E40CC00FA41B5 /* Array+MKHHelpers.swift */; };
+		94A3EABD1E32B2EE0053164B /* UIStackView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A3EABC1E32B2EE0053164B /* UIStackView+MKHHelpers.swift */; };
+		94A3EAC11E32C26D0053164B /* Stick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A3EAC01E32C26D0053164B /* Stick.swift */; };
 		A3DECD10F6D569EF293E6F3A /* UIScrollView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C33DECA30F5918D5B90808 /* UIScrollView+MKHHelpers.swift */; };
 		AC0E87E64CF73768619EEB3F /* UIView+MKHHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D884B414ED9E47BFCC5F945 /* UIView+MKHHelpers.swift */; };
 		B5A3BC0AB97E61AB4C1BDFCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB4E6C4A1186A4D8C1CF1DA /* Foundation.framework */; };
@@ -31,6 +33,8 @@
 		87543EACBDDDBCEF11BEA575 /* MKHHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MKHHelpers.h; sourceTree = "<group>"; };
 		946C03221E2E381500FA41B5 /* UIButton+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+MKHHelpers.swift"; sourceTree = "<group>"; };
 		946C03261E2E40CC00FA41B5 /* Array+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+MKHHelpers.swift"; sourceTree = "<group>"; };
+		94A3EABC1E32B2EE0053164B /* UIStackView+MKHHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+MKHHelpers.swift"; sourceTree = "<group>"; };
+		94A3EAC01E32C26D0053164B /* Stick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stick.swift; sourceTree = "<group>"; };
 		A7CC366BD5515060A247FE44 /* UIViewController+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+MKHHelpers.swift"; sourceTree = "<group>"; };
 		A93B0E9C8AA09628E00E8B20 /* String+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+MKHHelpers.swift"; sourceTree = "<group>"; };
 		FA2B7B202691A94BF1827BCE /* UIImage+MKHHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+MKHHelpers.swift"; sourceTree = "<group>"; };
@@ -101,9 +105,11 @@
 				FA2B7B202691A94BF1827BCE /* UIImage+MKHHelpers.swift */,
 				35C33DECA30F5918D5B90808 /* UIScrollView+MKHHelpers.swift */,
 				7D884B414ED9E47BFCC5F945 /* UIView+MKHHelpers.swift */,
+				94A3EABC1E32B2EE0053164B /* UIStackView+MKHHelpers.swift */,
 				A7CC366BD5515060A247FE44 /* UIViewController+MKHHelpers.swift */,
 				946C03221E2E381500FA41B5 /* UIButton+MKHHelpers.swift */,
 				946C03261E2E40CC00FA41B5 /* Array+MKHHelpers.swift */,
+				94A3EAC01E32C26D0053164B /* Stick.swift */,
 			);
 			path = Src;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 				946C03231E2E381500FA41B5 /* UIButton+MKHHelpers.swift in Sources */,
 				A3DECD10F6D569EF293E6F3A /* UIScrollView+MKHHelpers.swift in Sources */,
 				946C03271E2E40CC00FA41B5 /* Array+MKHHelpers.swift in Sources */,
+				94A3EABD1E32B2EE0053164B /* UIStackView+MKHHelpers.swift in Sources */,
+				94A3EAC11E32C26D0053164B /* Stick.swift in Sources */,
 				AC0E87E64CF73768619EEB3F /* UIView+MKHHelpers.swift in Sources */,
 				8E228908F4479937C109C9B2 /* UIViewController+MKHHelpers.swift in Sources */,
 			);
