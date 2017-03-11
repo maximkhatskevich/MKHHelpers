@@ -13,20 +13,84 @@ import UIKit
 public
 extension UIView
 {
-    private
-    func collectAllSubviews(into list: inout [UIView])
+    var isVisible: Bool
     {
-        for sv in subviews
+        get
         {
-            list.append(sv)
-            
-            //===
-            
-            sv.collectAllSubviews(into: &list)
+            return !isHidden
+        }
+        
+        set(newValue)
+        {
+            isHidden = !newValue
         }
     }
+}
+
+//===
+
+public
+extension UIView
+{
+    @discardableResult
+    func add(on superview: UIView, _ translatesAutoresizing: Bool = false) -> Self
+    {
+        superview.addSubview(self)
+        
+        //===
+        
+        translatesAutoresizingMaskIntoConstraints = translatesAutoresizing
+        
+        //===
+        
+        return self
+    }
+}
+
+//===
+
+public
+extension UIView
+{
+    @available(iOS 9.0, *)
+    @discardableResult
+    func add(on stackView: UIStackView) -> Self
+    {
+        stackView.addArrangedSubview(self)
+        
+        //===
+        
+        return self
+    }
     
-    public
+    @available(iOS 9.0, *)
+    @discardableResult
+    func remove(from stackView: UIStackView) -> Self
+    {
+        stackView.removeArrangedSubview(self)
+        
+        //===
+        
+        return self
+    }
+}
+
+//===
+
+public
+extension UIView
+{
+    func removeAllConstraints()
+    {
+        removeConstraints(constraints)
+    }
+}
+
+//===
+
+public
+extension UIView
+{
     func allSubviews() -> [UIView]
     {
         var result: [UIView] = []
@@ -38,5 +102,20 @@ extension UIView
         //===
         
         return result
+    }
+    
+    //===
+    
+    private
+    func collectAllSubviews(into list: inout [UIView])
+    {
+        for sv in subviews
+        {
+            list.append(sv)
+            
+            //===
+            
+            sv.collectAllSubviews(into: &list)
+        }
     }
 }
